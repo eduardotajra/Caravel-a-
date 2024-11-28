@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Caravel(a) - Proposta Secreta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="ship.png">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="logo">C.a.r.a.v.e.l.(a)</h1>
+        </nav>
+        <header>
+            <h2 id="header-text"></h2>
+            <p class="confidencial">Confidencial – Para os olhos da equipe Caravela.</p>
+        </header>
+        
+        <main>
+            <section class="intro">
+                <h3>Meguinh(a) ou codinome secreto: <span class="highlight">E.D.U.A.R.D.O.</span></h3>
+                <p>🌟 <strong>Quem sou eu?</strong></p>
+                <p>Programador e contador de histórias. Minha missão? Transformar ideias em realidade no universo Caravel(a).</p>
+                <p><strong>Missão:</strong> Levar a Caravela a novos horizontes.</p>
+            </section>
+
+            <section class="content">
+                <div class="half">
+                    <h3>🔧 Programação + Narrativa = O Poder da Caravela</h3>
+                    <ul>
+                        <li>🌍 <strong>Inovações que Surpreendem</strong></li>
+                        <p>Desde a programação de eventos dinâmicos até a criação de mundos imersivos. A cada onda, uma nova descoberta. Enigmas e interatividade para manter os jogadores sempre à beira da descoberta.</p>
+                        <li>📜 <strong>Histórias que Criam Mundos</strong></li>
+                        <p>Narrativas que não apenas guiam, mas que se ramificam e se adaptam à escolha do jogador. Cada decisão importa e leva a uma nova jornada.</p>
+                    </ul>
+                </div>
+                <div class="half">
+                    <img src="ship.png" alt="Caravela" class="responsive">
+                </div>
+            </section>
+
+            <section class="offer">
+                <h3>O que trago para a Caravel(a)?</h3>
+                <div class="cards">
+                    <div class="card">
+                        <h4>🔧 Programação Criativa</h4>
+                        <p>Construção de mecânicas inovadoras que transformam o jogo em uma experiência dinâmica. Enigmas, eventos e sistemas personalizados.</p>
+                    </div>
+                    <div class="card">
+                        <h4>📖 História Imersiva</h4>
+                        <p>"Mundos" interligados por narrativas poderosas. Missões, diálogos e decisões que fazem cada jornada única.</p>
+                    </div>
+                    <div class="card">
+                        <h4>⚡ O que posso oferecer</h4>
+                        <ul>
+                            <li>Mecânicas que respiram vida em Caravela.</li>
+                            <li>Narrativas imersivas que criam conexões reais com o jogador.</li>
+                            <li>Desafios dinâmicos que mudam com o tempo, nunca deixando a aventura cair na mesmice.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="proposal">
+                <h3>Proposta:</h3>
+                <ul class="proposal-list">
+                    <li>💡 Mecânicas interativas e dinâmicas.</li>
+                    <li>🌍 Construção de cenários imersivos e desafios.</li>
+                    <li>📜 Expansão da lore e criação de histórias.</li>
+                </ul>
+                <p class="quote">"Espero que não seja mais que um até logo"</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Aguardo sua resposta para entrar a bordo da Caravel(a).</p>
+            <p><a href="https://github.com/eduardotajra"><strong>Eduardo Tajra</strong></a><br>Voluntário Estratégico</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+<!-- CSS -->
+<style>
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s ease;
+        color: aquamarine;
+    }
+    body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        background: linear-gradient(135deg, #0e1a2b, #1c3b57);
+        color: #ffffff;
+        overflow-x: hidden;
+        line-height: 1.6;
+    }
+    
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+        animation: fadeIn 2s ease-in;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .logo {
+        font-family: 'Crimson Text', serif;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+        color: #f0a500;
+    }
+
+    header {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px 0 20px 0;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        animation: slideIn 1s ease-out;
+    }
+
+    header h2 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 0.15em solid #f0a500;
+    }
+
+    .confidencial {
+        color: #f0a500;
+        font-style: italic;
+    }
+
+    .intro {
+        padding: 20px 0;
+        animation: fadeInUp 1.5s ease-in;
+    }
+
+    .highlight {
+        color: #f0a500;
+        letter-spacing: 2px;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 0;
+        animation: fadeIn 2s ease-in;
+    }
+
+    .half {
+        flex: 1;
+        min-width: 300px;
+        padding: 20px;
+    }
+
+    .content ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .content li {
+        font-size: 1.2em;
+        margin: 20px 0 10px 0;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+        animation: fadeIn 2s ease-in;
+    }
+
+    .card {
+        background-color: #16243d;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 15px;
+        flex: 1;
+        min-width: 250px;
+        max-width: 300px;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card h4 {
+        color: #f0a500;
+    }
+
+    .proposal {
+        text-align: center;
+        padding: 50px 0;
+        animation: fadeInUp 1.5s ease-in;
+    }
+
+    .proposal-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .proposal-list li {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .quote {
+        font-style: italic;
+        margin-top: 20px;
+        color: #f0a500;
+    }
+
+    footer {
+        text-align: center;
+        padding: 50px 0;
+        font-size: 1.1em;
+        animation: fadeIn 2s ease-in;
+    }
+
+    footer p {
+        margin: 5px 0;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+        .content {
+            flex-direction: column;
+        }
+        .cards {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<!-- JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const text = '🚢 Proposta Secreta para o Projeto "C.a.r.a.v.e.l.(a)" 🛶';
+        let index = 0;
+        const speed = 100;
+
+        function typeWriter() {
+            if (index < text.length) {
+                document.querySelector('header h2').innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        // Limpa o texto e inicia o efeito
+        document.querySelector('header h2').innerHTML = '';
+        typeWriter();
+    });
+</script>
